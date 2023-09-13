@@ -1,4 +1,37 @@
+1234567890
+      -------www-------
+      |               |
+      |               |
+      s               w
+      |               w
+      d               w
+      d               |
+      |               o
+      |               |
+      -----www-www-----
 
+   KEY:                    
+      |   vertical wall     
+      -   horizontal wall   
+      d   door              
+      w   window            
+      o   electrical outlet 
+      s   electrical switch
+===========================
+ ROOM PAINT
+   Ceiling white @ $24.98/gallon
+      Use: 1.25 gallons
+      Purchase: 2 gallons
+      Price: $49.96
+
+   Blue @ $30.98/gallon
+      Use: 1.77 gallons
+      Purchase: 2 gallons
+      Price: $61.96
+
+   TOTAL COST: $118.64
+
+123456789
      -------www-------
      |               |
      |               |
@@ -10,10 +43,23 @@
      |               |
      -----www-www-----
 
-   KEY:
+ KEY:
      |   vertical wall
      -   horizontal wall
      d   door
      w   window
      o   electrical outlet
      s   electrical switch
+===========================
+ ROOM PAINT
+   Ceiling white @ $24.98/gallon
+     Use: 1.25 gallons
+     Purchase: 2.0 gallons
+     Price: $49.96
+
+   Blue @ $30.98/gallon
+     Use: 1.77 gallons
+     Purchase: 2.0 gallons
+     Price: $61.96
+
+   TOTAL COST: $118.64

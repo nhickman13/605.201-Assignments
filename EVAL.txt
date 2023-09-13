@@ -1,4 +1,4 @@
-PART 1
+PART 2
 
 Starting with 95%
 
@@ -7,36 +7,62 @@ ADDITIONS:
 SUBTRACTIONS:
 
 ASSESSMENT:
-	Compiles: (15)
-	    : warnings 
-	    : errors 
-	Runs: (80)
+	Compiles: (10)
+	    : warnings
+	    : errors
+	Runs: (40)
 	  - Meets execution requirements
-		: edu.jhupte.cs605201.part1 package 
-		: classpath - Java directory layout is correct
-		: Room.main(...) - class and main are correct
+		: edu.jhupte.cs605201.part2 package
+		: Room class
+		: Room.main(...) 
 		: crashes 
 		  - no runtime faults
-	  - Meets display requirement
+	  - Meets display requirements
+		: calculated values displayed for
+	      - White Use: Purchase: and Price:
+	      - Blue Use: Purchase: and Price:
+	      - TOTAL COST
 	    : content matches CORRECT.OUT.txt
-		  - windows are 3 'w' characters
-		  - doors are 2 'd' characters
-		  - outlet is 1 'o' character
-		  - switch is 1 's' character
-		  - horizontal wall character is '-'
-		  - vertical wall character is '|'
-		  - north (top of room) wall has 1 window
-		  - east (right of room) wall has 1 window and 1 outlet
-		  - south (bottom of room) wall has 2 windows
-		  - west (left of room) wall has 1 door and one switch
+		  - room and KEY characters as defined in Part 1
+		  - gallons USED 
+		    + Ceiling white as 1.25
+		    + Blue as 1.77
+		  - gallons PURCHASED 
+		    + Ceiling white as 2
+		    + Blue as 2
+		  - TOTAL COST purchased plus 6% as $118.64
 		: format matches CORRECT.OUT.txt
-		  - North wall is on the second displayed line
-		  - West wall is in column 6
+		  - All text case matches requirements
+		  - gallons USED to hundredths
+		  - gallons PURCHASED as integer
+		  - TOTAL COST to hundredths
+		  - North wall (top of room) is on the second line
+		  - West wall (left of room) is in column 7
 		  - KEY: starts in column 4
-		  - Key elements start in column 6
-		  - No blank line after electrical switch element
+		  - Key elements start in column 7
+		  - Spacer ==== starts in column 1
+		  - ROOM PAINT starts in column 2
+		  - Ceiling, Blue and TOTAL COST: labels start in column 4
+		  - Use:, Purchase: and Price: labels start in column 7
+		  - One blank line after TOTAL COST:
+	Design: (45)
+	  - Meets variable requirements
+		: float
+		  ceilingHeight=8.5f
+		  doorWidth=3.5f, doorHeight=6.75f;
+		: int
+		  side1Length=17, side2Length=8
+		  windowWidth=3, windowHeight=4
+		: double
+		  ceilingArea, wallArea
+		  whiteGallons, blueGallons
+	  - Meets algorithm requirements
+		  paint area calculations use the dimensions defined in the variables  
+		  ceiling white -  coats(2) coverage(500) price(24.98)
+		  primer(1) coverage(500) price(24.98)
+		  blue - coats(2) coverage(400) price(30.98)
 
-GRADE: 
+GRADE:
 
 NOTE: 
 
