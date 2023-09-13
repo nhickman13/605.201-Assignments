@@ -1,0 +1,19 @@
+
+     -------www-------
+     |               |
+     |               |
+     s               w
+     |               w
+     d               w
+     d               |
+     |               o
+     |               |
+     -----www-www-----
+
+   KEY:
+     |   vertical wall
+     -   horizontal wall
+     d   door
+     w   window
+     o   electrical outlet
+     s   electrical switch

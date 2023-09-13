@@ -1,0 +1,45 @@
+PART 1
+
+Starting with 95%
+
+ADDITIONS:
+
+SUBTRACTIONS:
+
+ASSESSMENT:
+	Compiles: (15)
+	    : warnings 
+	    : errors 
+	Runs: (80)
+	  - Meets execution requirements
+		: edu.jhupte.cs605201.part1 package 
+		: classpath - Java directory layout is correct
+		: Room.main(...) - class and main are correct
+		: crashes 
+		  - no runtime faults
+	  - Meets display requirement
+	    : content matches CORRECT.OUT.txt
+		  - windows are 3 'w' characters
+		  - doors are 2 'd' characters
+		  - outlet is 1 'o' character
+		  - switch is 1 's' character
+		  - horizontal wall character is '-'
+		  - vertical wall character is '|'
+		  - north (top of room) wall has 1 window
+		  - east (right of room) wall has 1 window and 1 outlet
+		  - south (bottom of room) wall has 2 windows
+		  - west (left of room) wall has 1 door and one switch
+		: format matches CORRECT.OUT.txt
+		  - North wall is on the second displayed line
+		  - West wall is in column 6
+		  - KEY: starts in column 4
+		  - Key elements start in column 6
+		  - No blank line after electrical switch element
+
+GRADE: 
+
+NOTE: 
+
+===================================================
+OUTPUT
+===================================================
